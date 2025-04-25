@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: transparent;
+    font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.score {
+    background: black;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.timer {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background: #333;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
